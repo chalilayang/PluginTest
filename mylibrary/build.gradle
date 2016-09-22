@@ -11,7 +11,8 @@ repositories {
 }
 
 group='com.chalilayang.plugins'
-version='1.0.0'
+version='1.0.1'
+
 
 uploadArchives {
     repositories {
@@ -20,3 +21,4 @@ uploadArchives {
         }
     }
 }
+apply from: '../bintray.gradle'
